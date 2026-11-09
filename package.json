@@ -1,0 +1,11 @@
+{
+  "name": "ardz-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ARDZ STORE - JB Akun Free Fire & Jasa Posting",
+  "engines": { "node": "20.x" },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "bcryptjs": "^2.4.3"
+  }
+}

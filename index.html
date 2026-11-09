@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07050c">
+<title>ARDZ STORE — JB Akun Free Fire & Jasa Posting</title>
+<meta name="description" content="ARDZ STORE: jual beli akun Free Fire dan jasa posting akun. Pesan cepat via WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" id="favicon" href="data:,">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a href="#home" class="brand" id="brand"></a>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+    <nav class="links" id="links">
+      <a href="#home" data-p="home">Home</a>
+      <a href="#katalog" data-p="katalog">Katalog Akun</a>
+      <a href="#jasa" data-p="jasa">Jasa Posting</a>
+      <a href="#kontak" data-p="kontak">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- HOME -->
+  <section id="page-home" class="page">
+    <div class="hero" id="hero">
+      <img class="hero-logo" id="heroLogo" alt="" width="260" height="260">
+      <div class="hero-in">
+        <div class="chip"><span class="dot"></span> Stok tersedia: <b id="stokCount">–</b> akun</div>
+        <h1 id="heroTitle">ARDZ STORE</h1>
+        <p id="heroSub"></p>
+        <div class="hero-btns">
+          <a class="btn btn-p" href="#katalog">LIHAT STOK</a>
+          <a class="btn btn-o" href="#jasa">JASA POSTING</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h"><div><h2>Akun Terbaru</h2></div><a class="btn btn-o btn-sm" href="#katalog">Lihat semua</a></div>
+      <div class="grid" id="latest"></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h"><div><h2>Cara Pemesanan</h2></div></div>
+      <div class="steps">
+        <div class="step"><div class="n">1</div><h3>Pilih Akun / Jasa</h3><p>Lihat katalog akun atau paket jasa posting yang kamu butuhkan.</p></div>
+        <div class="step"><div class="n">2</div><h3>Tekan Tombol WhatsApp</h3><p>Pesan otomatis terisi berisi nama stok / jasa dan harga.</p></div>
+        <div class="step"><div class="n">3</div><h3>Konfirmasi ke Admin</h3><p>Admin mengecek ketersediaan dan menjelaskan metode pembayaran.</p></div>
+        <div class="step"><div class="n">4</div><h3>Transaksi Selesai</h3><p>Setelah pembayaran terkonfirmasi, akun / jasa langsung diproses.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KATALOG -->
+  <section id="page-katalog" class="page hide">
+    <div class="sec">
+      <div class="sec-h"><div><h2>Katalog Akun Free Fire</h2><p id="katInfo"></p></div></div>
+      <div class="tools">
+        <input class="in" id="search" type="search" placeholder="Cari nama stok / keterangan...">
+        <select class="in" id="sort" style="max-width:190px">
+          <option value="new">Terbaru</option>
+          <option value="low">Harga Termurah</option>
+          <option value="high">Harga Termahal</option>
+        </select>
+      </div>
+      <div class="grid" id="catalog"></div>
+    </div>
+  </section>
+
+  <!-- JASA -->
+  <section id="page-jasa" class="page hide">
+    <div class="sec">
+      <div class="sec-h"><div><h2>Jasa Posting</h2><p>Titipkan akun & promosimu, kami yang posting.</p></div></div>
+      <div class="tabs" id="svcTabs"></div>
+      <div class="grid" id="services"></div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="page-kontak" class="page hide">
+    <div class="sec">
+      <div class="sec-h"><div><h2>Kontak</h2></div></div>
+      <div class="contact">
+        <div id="aboutTxt"></div>
+        <div><b>Jam operasional:</b> <span id="hoursTxt"></span></div>
+        <div id="igRow" class="hide"><b>Instagram:</b> <a id="igLink" target="_blank" rel="noopener"></a></div>
+        <div><b>WhatsApp:</b> <span id="waTxt"></span></div>
+        <a class="btn btn-wa" id="contactWA" target="_blank" rel="noopener">💬 Chat WhatsApp Admin</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div><b id="footName">ARDZ STORE</b><br><span id="footTag"></span></div>
+    <div>Menu: <a href="#home">Home</a> · <a href="#katalog">Katalog</a> · <a href="#jasa">Jasa</a> · <a href="#kontak">Kontak</a></div>
+    <div>© <span id="yr"></span> <span id="footName2">ARDZ STORE</span>. Semua hak dilindungi.</div>
+  </div>
+</footer>
+
+<a class="fab" id="fab" target="_blank" rel="noopener" aria-label="Chat WhatsApp">💬</a>
+
+<script src="/app.js"></script>
+</body>
+</html>
